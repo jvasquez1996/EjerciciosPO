@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/utec/jvasqeuzd/Ejercicios/Ejercicio1/CAutor.cpp">
+			<Option target="Ejercicio1"/>
+		</Unit>
+		<Unit filename="/home/utec/jvasqeuzd/Ejercicios/Ejercicio1/CAutor.h">
+			<Option target="Ejercicio1"/>
+		</Unit>
+		<Unit filename="/home/utec/jvasqeuzd/Ejercicios/Ejercicio1/CLibro.h">
+			<Option target="Ejercicio1"/>
+		</Unit>
+		<Unit filename="/home/utec/jvasqeuzd/Ejercicios/Ejercicio1/Clibro.cpp">
+			<Option target="Ejercicio1"/>
+		</Unit>
 		<Unit filename="/home/utec/jvasqeuzd/Ejercicios/Ejercicio1/main.cpp">
 			<Option target="Ejercicio1"/>
 		</Unit>

@@ -1,10 +1,15 @@
-#include <iostream>
-using  namespace std;
+
+
+#include <vector>
+#include "Tipos.h"
 
 int main() {
-    int valor=9;
 
-    cout<<to_string(valor);
-    
+    TipoString nombre,apellido;
+
+
+
+
+
     return 0;
 }

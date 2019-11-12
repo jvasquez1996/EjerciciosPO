@@ -123,6 +123,60 @@ Ejercicio1/fast:
 	$(MAKE) -f CMakeFiles/Ejercicio1.dir/build.make CMakeFiles/Ejercicio1.dir/build
 .PHONY : Ejercicio1/fast
 
+CAutor.o: CAutor.cpp.o
+
+.PHONY : CAutor.o
+
+# target to build an object file
+CAutor.cpp.o:
+	$(MAKE) -f CMakeFiles/Ejercicio1.dir/build.make CMakeFiles/Ejercicio1.dir/CAutor.cpp.o
+.PHONY : CAutor.cpp.o
+
+CAutor.i: CAutor.cpp.i
+
+.PHONY : CAutor.i
+
+# target to preprocess a source file
+CAutor.cpp.i:
+	$(MAKE) -f CMakeFiles/Ejercicio1.dir/build.make CMakeFiles/Ejercicio1.dir/CAutor.cpp.i
+.PHONY : CAutor.cpp.i
+
+CAutor.s: CAutor.cpp.s
+
+.PHONY : CAutor.s
+
+# target to generate assembly for a file
+CAutor.cpp.s:
+	$(MAKE) -f CMakeFiles/Ejercicio1.dir/build.make CMakeFiles/Ejercicio1.dir/CAutor.cpp.s
+.PHONY : CAutor.cpp.s
+
+Clibro.o: Clibro.cpp.o
+
+.PHONY : Clibro.o
+
+# target to build an object file
+Clibro.cpp.o:
+	$(MAKE) -f CMakeFiles/Ejercicio1.dir/build.make CMakeFiles/Ejercicio1.dir/Clibro.cpp.o
+.PHONY : Clibro.cpp.o
+
+Clibro.i: Clibro.cpp.i
+
+.PHONY : Clibro.i
+
+# target to preprocess a source file
+Clibro.cpp.i:
+	$(MAKE) -f CMakeFiles/Ejercicio1.dir/build.make CMakeFiles/Ejercicio1.dir/Clibro.cpp.i
+.PHONY : Clibro.cpp.i
+
+Clibro.s: Clibro.cpp.s
+
+.PHONY : Clibro.s
+
+# target to generate assembly for a file
+Clibro.cpp.s:
+	$(MAKE) -f CMakeFiles/Ejercicio1.dir/build.make CMakeFiles/Ejercicio1.dir/Clibro.cpp.s
+.PHONY : Clibro.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Ejercicio1"
 	@echo "... edit_cache"
+	@echo "... CAutor.o"
+	@echo "... CAutor.i"
+	@echo "... CAutor.s"
+	@echo "... Clibro.o"
+	@echo "... Clibro.i"
+	@echo "... Clibro.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
