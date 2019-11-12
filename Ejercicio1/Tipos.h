@@ -9,7 +9,7 @@
 using  namespace std;
 
 typedef string TipoString;
-
+typedef int TipoInt;
 
 
 #endif //EJERCICIO1_TIPOS_H
